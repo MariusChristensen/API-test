@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon API Example</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Pokémon Search</h1>
+    <input
+      type="text"
+      id="pokemonName"
+      placeholder="Enter Pokémon name (e.g., pikachu)"
+    />
+    <button id="searchButton">Search</button>
+
+    <div id="pokemonInfo" class="pokemon-info" hidden>
+      <h2 id="pokemonTitle"></h2>
+      <img id="pokemonImage" alt="Pokémon Image" />
+      <p><strong>Height:</strong> <div id="pokemonHeight"></div></p>
+      <p><strong>Weight:</strong> <div id="pokemonWeight"></div></p>
+      <p><strong>ID:</strong> <div id="pokemonId"></div></p>
+      <p><strong>Stats:</strong><div id="pokemonStats"></div></p>
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
