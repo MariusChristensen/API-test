@@ -1,3 +1,4 @@
+// cSpell:disable
 // Funksjon for å håndtere søk, trigges både av klikk og Enter-tast
 function handleSearch() {
   // Henter inn Pokémon-navnet fra inputfeltet, gjør det om til små bokstaver og fjerner mellomrom
@@ -67,3 +68,4 @@ document.getElementById("pokemonName").addEventListener("keydown", (event) => {
     handleSearch();
   }
 });
+// cSpell:enable
